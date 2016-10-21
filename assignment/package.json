@@ -4,7 +4,8 @@
   "description": " four function calculator",
   "main": "index.js",
   "scripts": {
-     "build": "node server/server.js"
+    "build": "node server/server.js",
+    "serve": "node node_modules\\webpack-dev-server\\bin\\webpack-dev-server.js --content-base ./client/ --hot --inline"
   },
   "author": "prakash_barnwal",
   "license": "MIT",
@@ -22,6 +23,7 @@
     "react-dom": "^15.3.2",
     "react-tap-event-plugin": "^1.0.0",
     "style-loader": "^0.13.1",
-    "webpack": "^1.13.2"
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
   }
 }

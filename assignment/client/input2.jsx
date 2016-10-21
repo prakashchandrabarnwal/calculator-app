@@ -16,9 +16,9 @@ var Input=React.createClass({
 	
 	render(){
 		return (
-		<div>
-			<TextField  type="text" value={this.state.input2} onChange={this.handleInput2} name="input2" style={{marginLeft:20}}/>
-		</div>
+		
+			<TextField  type="text" value={this.state.input2} onChange={this.handleInput2} name="input2" className="col-lg-3 col-xs-3 col-sm-3 col-xs-3"/>
+		
 		);
 	}
 });

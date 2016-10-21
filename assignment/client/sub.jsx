@@ -12,7 +12,7 @@ var Sub=React.createClass({
 		},
 	render(){
 		return (
-			 <RaisedButton  onClick={this.sub} className="col-lg-1 col-sm-1 col-xs-1"  style={style} label="-" />
+			 <RaisedButton  onClick={this.sub} className="col-lg-1 col-sm-1 col-xs-1" col-md-1  style={style} label="-" />
 		)
 	}
 });

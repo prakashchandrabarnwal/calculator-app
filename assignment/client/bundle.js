@@ -144,7 +144,7 @@
 							{ className: "container-fluid" },
 							React.createElement(
 								"h1",
-								{ className: "col-lg-offset-5" },
+								{ className: "col-lg-offset-5 col-xs-offset-4 col-md-offset-4 col-sm-offset-4" },
 								"Calculator App"
 							),
 							React.createElement(
@@ -169,7 +169,7 @@
 								{ className: "row", style: { marginTop: "40px" } },
 								React.createElement(
 									"span",
-									{ style: { paddingTop: "20px" }, className: "col-lg-offset-3" },
+									{ style: { paddingTop: "20px" }, className: "col-lg-offset-3 col-md-offset-3 col-sm-offset-2 col-xs-offset-2" },
 									"Choose operation"
 								),
 								React.createElement(Add, { opr: this.operator }),
@@ -34083,7 +34083,7 @@
 			return React.createElement(
 				"div",
 				null,
-				React.createElement(TextField, { type: "text", value: this.state.input1, onChange: this.handleInput1, id: "input1", style: { marginLeft: "450px" } })
+				React.createElement(TextField, { type: "text", value: this.state.input1, onChange: this.handleInput1, id: "input1", className: "col-xs-offset-6 col-sm-offset-6 col-md-offset-6 col-lg-offset-6", style: { marginRight: 10 } })
 			);
 		}
 	});

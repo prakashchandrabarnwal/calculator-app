@@ -78,7 +78,7 @@ var Calculator=React.createClass({
 		<AppBar title="Calculator" iconElementLeft={<h1/>}/>
 		<Paper style={{marginTop:30}}>
 		<div className="container-fluid">
-			<h1 className="col-lg-offset-5">Calculator App</h1>
+			<h1 className="col-lg-offset-5 col-xs-offset-4 col-md-offset-4 col-sm-offset-4">Calculator App</h1>
 			<div className="row">
 				<Input1 val={this.getVal1}/>
 				<span style={{ paddingTop: "16px",paddingLeft:"10px"}}>{this.state.selectedOperator}</span>
@@ -88,7 +88,7 @@ var Calculator=React.createClass({
 			</div>
 			
 			<div className="row" style={{ marginTop: "40px"}}>
-			<span style={{ paddingTop: "20px"}} className="col-lg-offset-3" >Choose operation</span>
+			<span style={{ paddingTop: "20px"}} className="col-lg-offset-3 col-md-offset-3 col-sm-offset-2 col-xs-offset-2" >Choose operation</span>
 				<Add opr={this.operator} />
 				<Sub opr={this.operator} />
 				<Mult opr={this.operator}/>

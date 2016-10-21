@@ -17,11 +17,11 @@ var Input=React.createClass({
 		
 	render(){
 		return (
-		<div>
-			<TextField  type="text" value={this.state.input1} onChange={this.handleInput1} id="input1" style={{marginLeft:"450px"}}/>
-		</div>
+		
+			<TextField  type="text" value={this.state.input1} onChange={this.handleInput1} id="input1" className="col-lg-offset-3 col-md-offset-2 col-sm-offset-2 col-xs-offset-2 col-lg-3 col-xs-3 col-sm-3 col-xs-3" />
+		
 		);
 	}
 });
 
-module.exports=Input;
+module.exports=Input; 
